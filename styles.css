@@ -132,6 +132,7 @@
 }
 .blogHead {
   position: relative;
+  width: 33vw;
 }
 .buildCareerContent h1 {
   font-size: 5rem;
@@ -173,14 +174,14 @@
 .footer p {
   padding: 20px 0;
 }
-.blogImages {
+/* .blogImages {
   display: flex;
   /* flex-direction: column; */
-  flex-wrap: wrap;
+/* flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   flex: 33%;
-}
+} */
 /* / */
 @media (max-width: 1040px) {
   .buttonDesign {
