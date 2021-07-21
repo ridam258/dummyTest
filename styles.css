@@ -1,0 +1,476 @@
+.navItem h4 {
+  margin: 1rem;
+  color: #124e78;
+  font-family: "PT Serif", serif;
+}
+.firstSection {
+  background-image: url(./assets/backgroundSection1.png);
+  background-color: rgba(0, 0, 0, 1);
+  background-size: cover;
+}
+.carouselContent {
+  padding: 5rem 5rem 0rem 5rem;
+}
+.name {
+  font-size: 6rem;
+  font-weight: 600;
+  font-family: "PT Serif", serif;
+}
+.descriptionSection1 h3 {
+  font-size: 4rem;
+}
+.descriptionSection1 h5 {
+  font-size: 2rem;
+  padding-top: 20px;
+}
+.descriptionSection1 h4 {
+  font-size: 3rem;
+}
+.person1Photo {
+  width: 46%;
+}
+.slider::-webkit-scrollbar {
+  width: 5px;
+}
+.activeContent {
+  padding-top: 8rem;
+}
+.featuresHeading h1 {
+  font-weight: 600;
+  font-size: 5rem;
+}
+.featuresHeading {
+  color: #124e78;
+  padding: 6rem 0rem;
+}
+.cardDesign {
+  box-shadow: 2px 4px 4px rgba(83, 83, 83, 0.26);
+  border: 1px solid rgba(83, 83, 83, 0.26);
+  border-radius: 25px;
+  background-color: white;
+  padding: 4rem;
+  width: 30vw;
+}
+.cards button {
+  margin: 2rem 0;
+  padding: 0.5rem 2rem;
+}
+.cards {
+  color: #124e78;
+  padding: 0rem 5rem 8rem;
+}
+.cards h3 {
+  margin: 2rem 0 0rem;
+}
+.clients {
+  padding: 5rem 3rem 8rem;
+}
+.section3 {
+  background-image: url(./assets/backgroundSection3.png);
+  color: white;
+  padding: 5rem 5rem 0 0;
+  background-size: cover;
+}
+.section3Content h1 {
+  font-size: 5rem;
+  font-weight: 600;
+  font-family: "PT Serif", serif;
+}
+.section3Content h3 {
+  font-size: 3rem;
+}
+.section3Content h2 {
+  padding-top: 25px;
+}
+.section3Content {
+  margin: 5rem 5rem;
+}
+.clientsHead h1 {
+  font-weight: 600;
+  font-size: 5rem;
+  color: #124e78;
+  font-family: "PT Serif", serif;
+  text-align: center;
+  margin: 5rem 0;
+}
+.cardSize {
+  height: 300px;
+  width: 300px;
+  margin: 0 2rem;
+}
+.retailHead h1 {
+  font-weight: 600;
+  font-size: 5rem;
+  color: #124e78;
+  font-family: "PT Serif", serif;
+  text-align: center;
+  margin: 5rem 0;
+}
+.blogHead1 {
+  position: absolute;
+  top: 25%;
+  left: 20%;
+  width: 40%;
+  color: white;
+  font-weight: 600;
+}
+.blogHead2 {
+  position: absolute;
+  top: 25%;
+  left: 20%;
+  width: 40%;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+.blogHead3 {
+  position: absolute;
+  top: 25%;
+  left: 20%;
+  width: 40%;
+  color: white;
+  font-weight: 600;
+}
+.blogHead {
+  position: relative;
+}
+.buildCareerContent h1 {
+  font-size: 5rem;
+  font-weight: 600;
+  font-family: "PT Serif", serif;
+}
+.buildCareerContent h2 {
+  font-size: 3rem;
+}
+.buildCareerContent {
+  margin: 9rem 5rem;
+  color: #124e78;
+}
+.buildCareer {
+  padding: 5rem 5rem 0 0;
+}
+.footer {
+  background-image: url(./assets/footerBackground.png);
+  color: white;
+  padding: 5rem 15rem;
+}
+.buttonDesign {
+  border: 2px orangered solid;
+  border-radius: 50px;
+  background: none;
+  font-size: 1.5rem;
+  font-family: "PT Serif", serif;
+  margin-top: 20px;
+}
+.blueButton {
+  color: #124e78;
+}
+.whiteButton {
+  color: white;
+}
+.footer h1 {
+  padding: 10px 0;
+}
+.footer p {
+  padding: 20px 0;
+}
+/* / */
+@media (max-width: 1040px) {
+  .buttonDesign {
+    font-size: 1.3rem;
+  }
+  .carouselContent {
+    padding: 3rem 3rem 0rem 3rem;
+  }
+  .name {
+    font-size: 3rem;
+  }
+  .descriptionSection1 h3 {
+    font-size: 2rem;
+  }
+  .descriptionSection1 h5 {
+    font-size: 1.2rem;
+  }
+  .descriptionSection1 h4 {
+    font-size: 1.5rem;
+  }
+  .activeContent {
+    padding-top: 4rem;
+  }
+  .featuresHeading {
+    padding: 4rem 0rem;
+  }
+  .featuresHeading h1 {
+    font-size: 4rem;
+  }
+  .cardDesign {
+    padding: 2rem;
+  }
+  .section3Image {
+    width: 90%;
+    display: flex;
+    align-self: flex-end;
+  }
+  .section3ImageParent {
+    display: flex;
+    align-items: flex-end;
+  }
+  .section3Content h1 {
+    font-size: 3rem;
+  }
+  .section3Content h3 {
+    font-size: 2rem;
+  }
+  .section3Content {
+    margin: 2rem 2rem;
+  }
+  .section3Content h2 {
+    font-size: 1.3rem;
+  }
+  .blogImages {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex: 33%;
+  }
+  .blogImages img {
+    /* padding: 2rem; */
+    width: 95%;
+    display: flex;
+    justify-content: center;
+  }
+  .blogHead1 {
+    font-size: 2rem;
+    width: 20%;
+  }
+  .blogHead2 {
+    font-size: 2rem;
+    width: 20%;
+  }
+  .blogHead3 {
+    font-size: 2rem;
+    width: 20%;
+  }
+
+  .buildCareerContent h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: "PT Serif", serif;
+  }
+  .buildCareerContent h2 {
+    font-size: 2rem;
+  }
+  .buildCareerContent {
+    margin: 5rem 3rem;
+    color: #124e78;
+  }
+  .buildCareer {
+    padding: 3rem 2rem 0 0;
+  }
+  .buildCareerImage {
+    width: 90%;
+  }
+  .footer {
+    background-image: url(./assets/footerBackground.png);
+    color: white;
+    padding: 3rem 0rem;
+  }
+  .footerLogo {
+    width: 120px;
+    height: 70px;
+    padding: 0 2rem;
+  }
+  .footerSocial {
+    width: 280px;
+    height: 70px;
+    padding: 0 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .featuresHeading h1 {
+    font-size: 3rem;
+  }
+  .featuresHeading h2 {
+    font-size: 1.3rem;
+  }
+  .cards {
+    padding: 0rem 2rem 5rem;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    align-items: center;
+  }
+  .cardDesign {
+    width: 60vw;
+  }
+  .section3Image {
+    width: 80%;
+    display: flex;
+    align-self: flex-end;
+  }
+  .section3Content h1 {
+    font-size: 2rem;
+  }
+  .section3Content h3 {
+    font-size: 1.5rem;
+  }
+  .section3Content {
+    margin: 1rem;
+  }
+  .section3Content h2 {
+    font-size: 1rem;
+  }
+  .section3 {
+    padding: 5rem 2rem 0 0;
+  }
+  .section3ImageParent {
+    width: 80%;
+  }
+  .buildCareerContent h1 {
+    font-size: 2rem;
+  }
+  .buildCareerContent h2 {
+    font-size: 1.5rem;
+  }
+  .buildCareerContent {
+    margin: 2rem 1rem;
+  }
+  .buildCareer {
+    padding: 3rem 1rem 0 0;
+  }
+  .buildCareerImage {
+    width: 90%;
+  }
+  .buildCareerContent h3 {
+    font-size: 1rem;
+  }
+  .footer {
+    padding: 2rem 0rem;
+  }
+  .footerLogo {
+    width: 100px;
+    height: 50px;
+    padding: 0 2rem;
+  }
+  .footerSocial {
+    width: 200px;
+    height: 40px;
+    padding: 0 2rem;
+  }
+}
+@media (max-width: 450px) {
+  .buttonDesign {
+    font-size: 0.5rem;
+  }
+  .name {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  .descriptionSection1 h3 {
+    font-size: 1rem;
+  }
+  .descriptionSection1 h5 {
+    font-size: 0.8rem;
+    padding-top: 5px;
+  }
+  .descriptionSection1 h4 {
+    font-size: 1rem;
+  }
+  .person1Photo {
+    width: 40%;
+  }
+  .carouselContent {
+    padding: 1rem 1rem 0rem 1rem;
+  }
+  .activeContent {
+    padding-top: 1rem;
+  }
+  .activeContent div h5 {
+    font-size: 0.5rem;
+  }
+  .featuresHeading h1 {
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+  .featuresHeading h2 {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  .featuresHeading {
+    color: #124e78;
+    padding: 3rem 0rem;
+  }
+  .cards h3 {
+    margin: 1rem 0 0rem;
+    font-size: 1rem;
+  }
+  .section3Content h1 {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  .section3Content h3 {
+    font-size: 0.8rem;
+  }
+  .section3Content {
+    margin: 1rem 1rem;
+  }
+  .section3Content h2 {
+    padding-top: 5px;
+  }
+  .section3Image {
+    width: 120%;
+  }
+  .section3 {
+    padding: 0;
+  }
+  .clients {
+    padding: 2rem 3rem 3rem;
+  }
+  .clientsHead h1 {
+    font-size: 2.5rem;
+  }
+  .retailHead h1 {
+    font-size: 2.5rem;
+  }
+  .blogHead1 {
+    font-size: 1rem;
+  }
+  .blogHead2 {
+    font-size: 1rem;
+  }
+  .blogHead3 {
+    font-size: 1rem;
+  }
+  .buildCareerContent h1 {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  .buildCareerContent h2 {
+    font-size: 0.8rem;
+  }
+  .buildCareerContent h3 {
+    font-size: 0.5rem;
+  }
+  .buildCareerContent {
+    margin: 2rem 1rem;
+  }
+  .buildCareer {
+    padding: 1rem 1rem 0 0;
+  }
+  .buildCareerImage {
+    width: 110%;
+  }
+  .footer {
+    padding: 1rem 0rem;
+  }
+  .footerLogo {
+    width: 100px;
+    height: 50px;
+    padding: 0 2rem;
+  }
+  .footerSocial {
+    width: 200px;
+    height: 50px;
+    padding: 0 2rem;
+  }
+}

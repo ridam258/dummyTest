@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="d-block d-md-none d-lg-none d-xl-none">
+      <nav class="d-flex flex-column p-5">
+        <div>
+          <img style="height: 63px; width: 72px" src="./assets/logo.png" />
+        </div>
+        <h4 class="py-3" style="color: orangered">Home</h4>
+        <h4 class="py-3">About</h4>
+        <h4 class="py-3">Services</h4>
+        <h4 class="py-3">Author</h4>
+        <h4 class="py-3">Blog</h4>
+        <h4 class="py-3">Contact</h4>
+      </nav>
+    </section>
+    <section class="d-none d-md-block d-lg-block d-xl-block">
+      <nav
+        class="d-flex justify-content-between align-items-center navbarDisplay"
+        style="padding: 15px 90px"
+      >
+        <div>
+          <img style="height: 63px; width: 72px" src="./assets/logo.png" />
+        </div>
+        <div>
+          <div class="d-flex justify-content-around navItem">
+            <h4 style="color: orangered">Home</h4>
+            <h4>About</h4>
+            <h4>Services</h4>
+            <h4>Author</h4>
+            <h4>Blog</h4>
+            <h4>Contact</h4>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- carousel -->
+
+    <div class="slider" style="overflow-x: hidden">
+      <section class="firstSection">
+        <div class="d-flex justify-content-between carouselContent">
+          <div style="color: white" class="descriptionSection1">
+            <h1 class="name">Umesh Agrawal</h1>
+            <h3>The Retail Pro</h3>
+            <h5>The consumers don't buy products,</h5>
+            <h4>They buy experiences.</h4>
+            <h5>
+              Your journey to a Sustainable Retail <br />
+              business is just a click away
+            </h5>
+            <button class="buttonDesign whiteButton">Schedule Now</button>
+            <div
+              class="
+                align-self-end
+                d-flex
+                justify-content-between
+                activeContent
+              "
+            >
+              <div>
+                <h5 style="border-top: 2px solid orangered">
+                  Retail Consultant
+                </h5>
+              </div>
+              <div>
+                <h5>Author</h5>
+              </div>
+              <div>
+                <h5>New Updates</h5>
+              </div>
+            </div>
+          </div>
+
+          <img
+            class="person1Photo"
+            style="padding-top: 2rem"
+            src="./assets/person1.png"
+            alt=""
+          />
+        </div>
+      </section>
+      <section class="firstSection">
+        <div class="d-flex justify-content-between carouselContent">
+          <div style="color: white" class="descriptionSection1">
+            <h1 class="name">Umesh Agrawal</h1>
+            <h3>The Retail Pro</h3>
+            <h5>The consumers don't buy products,</h5>
+            <h4>They buy experiences.</h4>
+            <h5>
+              Your journey to a Sustainable Retail <br />
+              business is just a click away
+            </h5>
+            <button class="buttonDesign whiteButton">Schedule Now</button>
+            <div
+              class="
+                align-self-end
+                d-flex
+                justify-content-between
+                activeContent
+              "
+            >
+              <div>
+                <h5>Retail Consultant</h5>
+              </div>
+              <div>
+                <h5 style="border-top: 2px solid orangered">Author</h5>
+              </div>
+              <div>
+                <h5>New Updates</h5>
+              </div>
+            </div>
+          </div>
+
+          <img
+            class="person1Photo"
+            style="padding-top: 2rem"
+            src="./assets/person1.png"
+            alt=""
+          />
+        </div>
+      </section>
+    </div>
+    <!-- Features -->
+    <section>
+      <div class="d-flex align-items-center flex-column featuresHeading">
+        <h1>Our Wisdom, Your Growth</h1>
+        <h2>Eliminating gap between the products and the consumers.</h2>
+      </div>
+      <div class="d-flex justify-content-between cards">
+        <div
+          class="
+            cardDesign
+            d-flex
+            flex-column
+            align-items-center
+            justify-content-center
+            m-3
+          "
+        >
+          <img style="width: 15%" src="./assets/features1.png" alt="" />
+          <h3 style="text-align: center">
+            Consumer Experience and Behavior Analytics
+          </h3>
+          <button class="buttonDesign blueButton">Know More</button>
+        </div>
+        <div
+          class="
+            cardDesign
+            d-flex
+            flex-column
+            align-items-center
+            justify-content-center
+            m-3
+          "
+        >
+          <img style="width: 15%" src="./assets/features2.png" alt="" />
+          <h3 style="text-align: center">
+            Omni Channel Strategy and Transformation
+          </h3>
+          <button class="buttonDesign blueButton">Know More</button>
+        </div>
+        <div
+          class="
+            cardDesign
+            d-flex
+            flex-column
+            align-items-center
+            justify-content-center
+            m-3
+          "
+        >
+          <img style="width: 15%" src="./assets/features3.png" alt="" />
+          <h3 style="text-align: center">Sustainable Brick-n-Mortar</h3>
+          <button class="buttonDesign blueButton">Know More</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3 Schedule meet -->
+    <section>
+      <div class="section3 d-flex">
+        <div class="section3ImageParent">
+          <img class="section3Image" src="./assets/person2.png" alt="" />
+        </div>
+        <div class="section3Content">
+          <h1>
+            Unfolding Retail <br />
+            bit by bit
+          </h1>
+          <h3>
+            Umesh Agarwal <br />
+            Author
+          </h3>
+          <h2>Let’s have a discovery meet.</h2>
+          <button style="padding: 1rem" class="buttonDesign whiteButton">
+            Schedule Now
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- section 4 clients -->
+
+    <section class="clients">
+      <div class="clientsHead">
+        <h1>Clients</h1>
+      </div>
+      <div class="cardSlider" style="overflow: hidden">
+        <div
+          style="height: 300px; width: 300px"
+          class="cardDesign cardSize"
+        ></div>
+        <div
+          style="height: 300px; width: 300px"
+          class="cardDesign cardSize"
+        ></div>
+        <div
+          style="height: 300px; width: 300px"
+          class="cardDesign cardSize"
+        ></div>
+        <div
+          style="height: 300px; width: 300px"
+          class="cardDesign cardSize"
+        ></div>
+        <div
+          style="height: 300px; width: 300px"
+          class="cardDesign cardSize"
+        ></div>
+      </div>
+    </section>
+
+    <!-- section 5 Retail Wisdom -->
+
+    <div id="retail">
+      <div class="retailHead">
+        <h1>Retail Wisdom</h1>
+      </div>
+      <div class="d-flex blogImages">
+        <div class="blogHead">
+          <img
+            style="background-color: rgba(0, 0, 0, 1)"
+            src="./assets/retailBackground1.png"
+            alt=""
+          />
+          <h1 class="blogHead1">The title of the blog comes here Heading</h1>
+        </div>
+        <div class="blogHead">
+          <img
+            style="background-color: rgba(0, 0, 0, 1)"
+            src="./assets/retailBackground2.png"
+            alt=""
+          />
+          <h1 class="blogHead2">The title of the blog comes here Heading</h1>
+        </div>
+        <div class="blogHead">
+          <img
+            style="
+              background-color: rgba(0, 0, 0, 1);
+              /* width: 100%; */
+              /* height: 100%; */
+            "
+            src="./assets/retailBackground3.png"
+            alt=""
+          />
+          <h1 class="blogHead3">The title of the blog comes here Heading</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- section 6 build your career -->
+
+    <section class="buildCareer">
+      <div class="d-flex">
+        <div class="d-flex align-items-end">
+          <img class="buildCareerImage" src="./assets/person2.png" alt="" />
+        </div>
+        <div class="buildCareerContent">
+          <h2>Build your career with</h2>
+          <h1>Umesh Agarwal</h1>
+          <br />
+          <h3>
+            Leran, grow and make a difference in businesses with the Retail Pro
+            to guide you.
+          </h3>
+          <button style="padding: 0.5rem" class="buttonDesign blueButton">
+            Start Now
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+      <div
+        class="d-flex flex-column align-items-center"
+        style="border-bottom: 1px solid white"
+      >
+        <h5>Our Wisdom, Your Growth.</h5>
+        <br />
+        <h1 style="text-align: center">Request More Information</h1>
+        <br />
+        <h5 style="text-align: center">
+          Eliminating gap between the products and the consumers
+        </h5>
+        <button style="padding: 0.5rem" class="buttonDesign whiteButton">
+          Contact Us
+        </button>
+        <p>© 2021,Umesh Agarwal</p>
+      </div>
+      <div class="d-flex justify-content-between" style="padding: 2rem 0 0">
+        <img class="footerLogo" src="./assets/footerLogo.png" alt="" />
+        <img class="footerSocial" src="./assets/FooterSocial.png" alt="" />
+      </div>
+    </section>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $(".slider").slick({
+        dots: false,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: false,
+            },
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+        ],
+      });
+      $(".cardSlider").slick({
+        dots: false,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: false,
+            },
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+        ],
+      });
+    </script>
+  </body>
+</html>
