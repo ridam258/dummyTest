@@ -262,7 +262,9 @@
     font-size: 2rem;
     width: 20%;
   }
-
+  .blogHead {
+    width: 100vw;
+  }
   .buildCareerContent h1 {
     font-size: 3rem;
     font-weight: 600;
