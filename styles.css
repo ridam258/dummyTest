@@ -1,8 +1,13 @@
+/* navbar */
+
 .navItem h4 {
   margin: 1rem;
   color: #124e78;
   font-family: "PT Serif", serif;
 }
+
+/* carousel */
+
 .firstSection {
   background-image: url(./assets/backgroundSection1.png);
   background-color: rgba(0, 0, 0, 1);
@@ -35,6 +40,9 @@
 .activeContent {
   padding-top: 8rem;
 }
+
+/* features section */
+
 .featuresHeading h1 {
   font-weight: 600;
   font-size: 5rem;
@@ -62,9 +70,9 @@
 .cards h3 {
   margin: 2rem 0 0rem;
 }
-.clients {
-  padding: 5rem 3rem 8rem;
-}
+
+/* section 3 css */
+
 .section3 {
   background-image: url(./assets/backgroundSection3.png);
   color: white;
@@ -85,6 +93,12 @@
 .section3Content {
   margin: 5rem 5rem;
 }
+
+/* clients section */
+
+.clients {
+  padding: 5rem 3rem 8rem;
+}
 .clientsHead h1 {
   font-weight: 600;
   font-size: 5rem;
@@ -98,6 +112,9 @@
   width: 300px;
   margin: 0 2rem;
 }
+
+/* retail wisdom section */
+
 .retailHead h1 {
   font-weight: 600;
   font-size: 5rem;
@@ -133,6 +150,9 @@
 .blogHead {
   position: relative;
 }
+
+/* build your career section */
+
 .buildCareerContent h1 {
   font-size: 5rem;
   font-weight: 600;
@@ -148,11 +168,22 @@
 .buildCareer {
   padding: 5rem 5rem 0 0;
 }
+
+/* footer */
+
 .footer {
   background-image: url(./assets/footerBackground.png);
   color: white;
   padding: 5rem 15rem;
 }
+.footer h1 {
+  padding: 10px 0;
+}
+.footer p {
+  padding: 20px 0;
+}
+/* common css */
+
 .buttonDesign {
   border: 2px orangered solid;
   border-radius: 50px;
@@ -167,17 +198,17 @@
 .whiteButton {
   color: white;
 }
-.footer h1 {
-  padding: 10px 0;
-}
-.footer p {
-  padding: 20px 0;
-}
+
 /* / */
+/* responsiveness for screen less than 1040px */
+
 @media (max-width: 1040px) {
+  /* common css */
+
   .buttonDesign {
     font-size: 1.3rem;
   }
+  /* section 1 */
   .carouselContent {
     padding: 3rem 3rem 0rem 3rem;
   }
@@ -196,6 +227,7 @@
   .activeContent {
     padding-top: 4rem;
   }
+  /* features section */
   .featuresHeading {
     padding: 4rem 0rem;
   }
@@ -205,6 +237,8 @@
   .cardDesign {
     padding: 2rem;
   }
+
+  /* section 3 */
   .section3Image {
     width: 90%;
     display: flex;
@@ -226,18 +260,15 @@
   .section3Content h2 {
     font-size: 1.3rem;
   }
+  /* blogs or retail wisdom */
   .blogImages {
     display: flex;
-    /* flex-direction: column; */
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     flex: 33%;
   }
   .blogImages img {
-    /* padding: 2rem; */
-    /* width: 95%; */
-
     display: flex;
     justify-content: center;
   }
@@ -253,7 +284,7 @@
     font-size: 2rem;
     width: 20%;
   }
-
+  /* build your career section */
   .buildCareerContent h1 {
     font-size: 3rem;
     font-weight: 600;
@@ -272,6 +303,8 @@
   .buildCareerImage {
     width: 90%;
   }
+
+  /* footer */
   .footer {
     background-image: url(./assets/footerBackground.png);
     color: white;
@@ -288,6 +321,7 @@
     padding: 0 2rem;
   }
 }
+/* responsiveness for screen size less than 768px */
 @media (max-width: 768px) {
   .featuresHeading h1 {
     font-size: 3rem;
@@ -297,7 +331,6 @@
   }
   .cards {
     padding: 0rem 2rem 5rem;
-    /* flex-wrap: wrap; */
     flex-direction: column;
     align-items: center;
   }
@@ -359,6 +392,7 @@
     padding: 0 2rem;
   }
 }
+/* responsiveness for screen size less than 450px */
 @media (max-width: 450px) {
   .buttonDesign {
     font-size: 0.5rem;
@@ -477,7 +511,6 @@
 }
 @media (min-width: 1040) {
   .blogHead {
-    /* width: 33vw; */
     flex: 33%;
   }
 }
