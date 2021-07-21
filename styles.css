@@ -263,7 +263,7 @@
     width: 20%;
   }
   .blogHead {
-    width: 100%;
+    width: 100vw;
   }
   .buildCareerContent h1 {
     font-size: 3rem;
@@ -355,9 +355,6 @@
   }
   .buildCareerContent h3 {
     font-size: 1rem;
-  }
-  .blogHead {
-    width: 100vw;
   }
   .footer {
     padding: 2rem 0rem;
