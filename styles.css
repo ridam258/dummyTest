@@ -475,3 +475,9 @@
     padding: 0 2rem;
   }
 }
+@media (min-width: 1040) {
+  .blogHead {
+    /* width: 33vw; */
+    flex: 33%;
+  }
+}
