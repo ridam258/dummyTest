@@ -396,6 +396,7 @@
 @media (max-width: 450px) {
   .buttonDesign {
     font-size: 0.5rem;
+    /* padding: 0 0.8rem; */
   }
   .name {
     font-size: 1.2rem;
