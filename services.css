@@ -67,10 +67,10 @@ span {
 }
 .descriptionContent {
   width: 55%;
-  padding: 3rem 5rem 3rem 3rem;
+  padding: 0rem 4rem 2rem 2rem;
 }
 .descriptionContent h1 {
-  font-size: 5rem;
+  font-size: 4rem;
   color: #124e78;
   font-family: "Cormorant Garamond", serif;
   font-weight: 700;
@@ -78,18 +78,102 @@ span {
   /* width: 88%; */
 }
 .descriptionContent p {
-  font-size: 2.2rem;
+  font-size: 1.5rem;
   margin: 1rem 0;
   /* width: 88%; */
 }
 .descriptionContent button {
   padding: 0.5rem 2rem;
   border: 2px solid orangered;
-  margin: 3rem 0 0 0;
+  margin: 2rem 0 0 0;
   font-size: 1.5rem;
   font-family: "Cormorant Garamond", serif;
   color: #124e78;
   font-weight: 800;
   background-color: #fff;
   border-radius: 50px;
+}
+.imageColumn {
+  display: none;
+}
+@media (max-width: 1308px) {
+  span {
+    margin: 1rem;
+  }
+  .descriptionContent {
+    padding: 0rem 2rem 1rem 1rem;
+  }
+  .descriptionContent h1 {
+    font-size: 3rem;
+
+    margin: 1rem 0;
+    /* width: 88%; */
+  }
+  .descriptionContent p {
+    font-size: 1.3rem;
+    margin: 1rem 0;
+    /* width: 88%; */
+  }
+  .descriptionContent button {
+    margin: 2rem 0 0 0;
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 1090px) {
+  .servicesDescription1 {
+    padding: 1.5rem 0;
+  }
+  span {
+    margin: 0.2rem;
+  }
+  .descriptionContent {
+    padding: 0rem 1rem 0.2rem 1rem;
+  }
+  .descriptionContent h1 {
+    font-size: 2rem;
+
+    margin: 1rem 0;
+    /* width: 88%; */
+  }
+  .descriptionContent p {
+    font-size: 1rem;
+    margin: 1rem 0;
+    /* width: 88%; */
+  }
+  .descriptionContent button {
+    padding: 0.5rem 1.2rem;
+    margin: 1rem 0 0 0;
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 830px) {
+  .serviceFlex {
+    flex-direction: column;
+    align-items: center;
+  }
+  .imageColumn {
+    display: initial;
+  }
+  .imageRow {
+    display: none;
+  }
+  .servicesDescription1 {
+    text-align: center;
+  }
+  .descriptionContent {
+    width: 95%;
+  }
+  .descriptionImage {
+    width: 95%;
+  }
+  .descriptionContent h1 {
+    font-size: 1.2rem;
+  }
+  .descriptionContent p {
+    font-size: 0.8rem;
+  }
+  .descriptionContent button {
+    font-size: 0.8rem;
+    margin: 0.5rem 0 0 0;
+  }
 }
