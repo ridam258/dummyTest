@@ -19,7 +19,7 @@
 .name {
   font-size: 6rem;
   font-weight: 600;
-  font-family: "PT Serif", serif;
+  font-family: "Cormorant Garamond", serif;
 }
 .descriptionSection1 h3 {
   font-size: 4rem;
@@ -82,7 +82,7 @@
 .section3Content h1 {
   font-size: 5rem;
   font-weight: 600;
-  font-family: "PT Serif", serif;
+  font-family: "Cormorant Garamond", serif;
 }
 .section3Content h3 {
   font-size: 3rem;
@@ -103,7 +103,7 @@
   font-weight: 600;
   font-size: 5rem;
   color: #124e78;
-  font-family: "PT Serif", serif;
+  font-family: "Cormorant Garamond", serif;
   text-align: center;
   margin: 5rem 0;
 }
@@ -119,7 +119,7 @@
   font-weight: 600;
   font-size: 5rem;
   color: #124e78;
-  font-family: "PT Serif", serif;
+  font-family: "Cormorant Garamond", serif;
   text-align: center;
   margin: 5rem 0;
 }
@@ -156,7 +156,7 @@
 .buildCareerContent h1 {
   font-size: 5rem;
   font-weight: 600;
-  font-family: "PT Serif", serif;
+  font-family: "Cormorant Garamond", serif;
 }
 .buildCareerContent h2 {
   font-size: 3rem;
@@ -189,7 +189,7 @@
   border-radius: 50px;
   background: none;
   font-size: 1.5rem;
-  font-family: "PT Serif", serif;
+  font-family: "Cormorant Garamond", serif;
   margin-top: 20px;
 }
 .blueButton {
@@ -288,7 +288,7 @@
   .buildCareerContent h1 {
     font-size: 3rem;
     font-weight: 600;
-    font-family: "PT Serif", serif;
+    font-family: "Cormorant Garamond", serif;
   }
   .buildCareerContent h2 {
     font-size: 2rem;

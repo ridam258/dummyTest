@@ -1,0 +1,95 @@
+.normalNav {
+  position: fixed;
+}
+.servicesTopImageParent {
+  position: relative;
+  /* height: 50%; */
+  z-index: -1;
+}
+.servicesTopContent {
+  position: absolute;
+  color: white;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2.5rem;
+  top: 60%;
+  left: 10%;
+  width: 35%;
+  padding: 1.5rem;
+}
+@media (max-width: 1168px) {
+  .servicesTopContent {
+    position: absolute;
+    color: white;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.5rem;
+    top: 55%;
+    left: 8%;
+    width: 35%;
+    padding: 0.5rem;
+  }
+}
+@media (max-width: 688px) {
+  .servicesTopContent {
+    position: absolute;
+    color: white;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.2rem;
+    top: 45%;
+    left: 7%;
+    width: 40%;
+    padding: 0.5rem;
+  }
+}
+@media (max-width: 458px) {
+  .servicesTopContent {
+    position: absolute;
+    color: white;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 0.8rem;
+    top: 40%;
+    left: 6%;
+    width: 45%;
+    padding: 0.5rem;
+  }
+}
+.servicesDescription1 {
+  padding: 3rem 0;
+}
+span {
+  margin: 2rem;
+  display: block;
+}
+.descriptionImage {
+  width: 45%;
+}
+.descriptionImage img {
+  width: 100%;
+}
+.descriptionContent {
+  width: 55%;
+  padding: 3rem 5rem 3rem 3rem;
+}
+.descriptionContent h1 {
+  font-size: 5rem;
+  color: #124e78;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 700;
+  margin: 1rem 0;
+  /* width: 88%; */
+}
+.descriptionContent p {
+  font-size: 2.2rem;
+  margin: 1rem 0;
+  /* width: 88%; */
+}
+.descriptionContent button {
+  padding: 0.5rem 2rem;
+  border: 2px solid orangered;
+  margin: 3rem 0 0 0;
+  font-size: 1.5rem;
+  font-family: "Cormorant Garamond", serif;
+  color: #124e78;
+  font-weight: 800;
+  background-color: #fff;
+  border-radius: 50px;
+}
