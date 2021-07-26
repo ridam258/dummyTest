@@ -52,22 +52,19 @@
 }
 .aboutSection3 {
   background-color: #2b4162;
-  padding: 4vw 2vw 0vw 8vw;
+  padding: 4vw 0vw 0vw 8vw;
 }
 .section3Paragraph {
-  padding: 0 8vw;
+  padding: 0 4vw;
   display: flex;
   align-items: center;
-  width: 55vw;
   color: white;
-  font-size: 1.5vw;
+  font-size: 2vw;
+}
+.aboutSection3 p {
+  margin: 0;
 }
 .aboutSection3 .container {
   margin: 0;
   padding: 0;
-}
-@media (max-width: 468px) {
-  /* .section3Paragraph {
-    width: 60vw;
-  } */
 }
