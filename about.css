@@ -1,0 +1,73 @@
+.section1 {
+  padding: 5vw 0 0;
+}
+.section1 h1 {
+  font-size: 6vw;
+  font-weight: 600;
+  font-family: "Cormorant Garamond", serif;
+  color: #124e78;
+}
+.section1 h4 {
+  font-size: 4vw;
+  font-weight: 500;
+  color: #2b4162;
+}
+.section1 h6 {
+  font-size: 3vw;
+  line-height: 4vw;
+  padding: 2vw 6vw 0 0;
+  color: #2b4162;
+}
+.section1Paragraph {
+  padding: 8vw;
+  background-color: #2b4162;
+  color: white;
+  font-size: 2.5vw;
+}
+.section1Paragraph p {
+  margin: 0;
+}
+.col-6 {
+  padding: 0;
+}
+.row {
+  width: 100%;
+}
+.section2 .container {
+  padding: 7vw;
+}
+.section2 .row div {
+  /* padding: 3rem; */
+}
+.section2 .row div img {
+  width: 30%;
+}
+.section2Paragraph {
+  padding: 4vw 12vw;
+  font-size: 2.5vw;
+  text-align: center;
+}
+.section2 {
+  padding: 5vw 0;
+}
+.aboutSection3 {
+  background-color: #2b4162;
+  padding: 4vw 2vw 0vw 8vw;
+}
+.section3Paragraph {
+  padding: 0 8vw;
+  display: flex;
+  align-items: center;
+  width: 55vw;
+  color: white;
+  font-size: 1.5vw;
+}
+.aboutSection3 .container {
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 468px) {
+  /* .section3Paragraph {
+    width: 60vw;
+  } */
+}
