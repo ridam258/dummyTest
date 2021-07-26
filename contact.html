@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- responsive navbar -->
+    <section class="d-block d-md-none d-lg-none d-xl-none">
+      <nav class="d-flex flex-column p-5">
+        <div>
+          <img style="height: 63px; width: 72px" src="./assets/logo.png" />
+        </div>
+        <a style="text-decoration: none; color: initial" href="index.html"
+          ><h4 class="py-3">Home</h4></a
+        >
+        <h4 class="py-3">About</h4>
+        <a style="text-decoration: none; color: initial" href="services.html"
+          ><h4 class="py-3">Services</h4></a
+        >
+        <h4 class="py-3">Author</h4>
+        <h4 class="py-3">Blog</h4>
+        <a style="text-decoration: none; color: initial" href="contact.html"
+          ><h4 style="color: orangered" class="py-3">Contact</h4></a
+        >
+      </nav>
+    </section>
+
+    <!-- normal navbar -->
+
+    <section
+      style="background-color: #fff; width: 100%"
+      class="d-none d-md-block d-lg-block d-xl-block normalNav"
+    >
+      <nav
+        class="d-flex justify-content-between align-items-center navbarDisplay"
+        style="padding: 15px 90px"
+      >
+        <div>
+          <img style="height: 63px; width: 72px" src="./assets/logo.png" />
+        </div>
+        <div>
+          <div class="d-flex justify-content-around navItem">
+            <a style="text-decoration: none" href="index.html"><h4>Home</h4></a>
+            <h4>About</h4>
+            <a style="text-decoration: none" href="services.html"
+              ><h4>Services</h4></a
+            >
+            <h4>Author</h4>
+            <h4>Blog</h4>
+            <a style="text-decoration: none" href="contact.html"
+              ><h4 style="color: orangered">Contact</h4></a
+            >
+          </div>
+        </div>
+      </nav>
+    </section>
+    <section class="contactFormSection">
+      <div class="sideImage">
+        <img src="./assets/person2.png" alt="" />
+      </div>
+      <div class="contactForm">
+        <h1>
+          Contact us to start your <br />
+          Sustainable Retail Business
+        </h1>
+        <div>
+          <form>
+            <input type="text" id="name" name="name" placeholder="Your name" />
+
+            <input
+              type="number"
+              id="contactnum"
+              name="contactnum"
+              placeholder="Phone Number"
+            />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="E-Mail ID"
+            />
+
+            <input
+              type="text"
+              id="cname"
+              name="cname"
+              placeholder="Company Name"
+            />
+            <input
+              type="text"
+              id="linkedinUrl"
+              name="linkedinUrl"
+              placeholder="Linkedin URL"
+            />
+
+            <input
+              type="text"
+              id="website"
+              name="website"
+              placeholder="Website"
+            />
+            <textarea
+              name="message"
+              id="message"
+              rows="5"
+              style="resize: none"
+            ></textarea>
+            <button class="buttonDesign buttonBlue">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
