@@ -5,8 +5,7 @@
 .contactFormSection div {
   flex: 50%;
 }
-.contactForm input {
-}
+
 input[type="text"],
 input[type="number"],
 input[type="email"],

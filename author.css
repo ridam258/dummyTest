@@ -1,0 +1,35 @@
+.col-6 h4 {
+  width: 70%;
+  font-size: 2vw;
+
+  color: #2b4162;
+}
+.container {
+  padding: 5rem 0rem 0;
+}
+@media (max-width: 768px) {
+  .col-6 h4 {
+    width: 90%;
+  }
+  .container {
+    padding: 1rem 0rem 0;
+  }
+}
+.authorTopSection {
+  position: relative;
+}
+.authorTopSectionContent {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  width: 45%;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 700;
+  color: white;
+}
+.authorTopSectionContent h1 {
+  font-size: 4vw;
+}
+.authorTopSectionContent h2 {
+  font-size: 3vw;
+}
