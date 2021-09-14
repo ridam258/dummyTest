@@ -20,17 +20,22 @@
   font-size: 6rem;
   font-weight: 600;
   font-family: "Cormorant Garamond", serif;
+  display: inline-block;
 }
-.descriptionSection1 h3 {
-  font-size: 4rem;
+.name span {
+  display: block;
+  text-align: right;
+  font-size: 2.5rem;
 }
+
 .descriptionSection1 h5 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding-top: 20px;
 }
-.descriptionSection1 h4 {
-  font-size: 3rem;
+.descriptionSection1 h6 {
+  margin-top: 8rem;
 }
+
 .person1Photo {
   width: 46%;
 }
@@ -74,10 +79,11 @@
 /* section 3 css */
 
 .section3 {
-  background-image: url(./assets/backgroundSection3.png);
-  color: white;
+  background-color: #ecebea;
+  color: #124e78;
   padding: 5rem 5rem 0 0;
   background-size: cover;
+  justify-content: center;
 }
 .section3Content h1 {
   font-size: 5rem;
@@ -97,7 +103,8 @@
 /* clients section */
 
 .clients {
-  padding: 5rem 3rem 8rem;
+  padding: 5rem;
+  /* background-color: #124e78; */
 }
 .clientsHead h1 {
   font-weight: 600;
@@ -105,12 +112,30 @@
   color: #124e78;
   font-family: "Cormorant Garamond", serif;
   text-align: center;
-  margin: 5rem 0;
+  padding: 0 0 5rem 0;
 }
-.cardSize {
-  height: 300px;
-  width: 300px;
-  margin: 0 2rem;
+.quoteMark1 {
+  position: absolute;
+  top: -20px;
+  left: -30px;
+}
+.quoteMark2 {
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+}
+.cardSlider .slick-next:before {
+  color: gray;
+}
+.cardSlider .slick-prev:before {
+  color: gray;
+}
+.cardDesign {
+  text-align: center;
+  margin: 0 5rem;
+}
+.nameCard {
+  margin-top: 3rem;
 }
 
 /* retail wisdom section */
@@ -150,7 +175,41 @@
 .blogHead {
   position: relative;
 }
-
+.eventHead h1 {
+  font-weight: 600;
+  font-size: 5rem;
+  color: white;
+  font-family: "Cormorant Garamond", serif;
+  text-align: center;
+  padding: 0 0 5rem 0;
+}
+.events {
+  background-color: #2b4162;
+  padding: 5rem;
+}
+.eventSlider img {
+  /* margin: 0 1rem; */
+  padding: 0 1rem;
+}
+.eventSlider .slick-dots {
+  display: none;
+}
+@media (max-width: 768px) {
+  .eventHead h1 {
+    font-size: 2.5rem;
+    padding: 0 0 1.5rem 0;
+  }
+  .events {
+    padding: 2rem 3rem 3rem;
+  }
+  .descriptionSection1 h6 {
+    font-size: 0.8rem;
+    margin-top: 2rem;
+  }
+  .name span {
+    font-size: 1.2rem;
+  }
+}
 /* build your career section */
 
 .buildCareerContent h1 {
@@ -166,7 +225,8 @@
   color: #124e78;
 }
 .buildCareer {
-  padding: 5rem 5rem 0 0;
+  background-color: #ecebea;
+  /* padding: 5rem 5rem 0 0; */
 }
 
 /* footer */
@@ -174,13 +234,23 @@
 .footer {
   background-image: url(./assets/footerBackground.png);
   color: white;
-  padding: 5rem 15rem;
+  padding: 5rem 10rem;
 }
 .footer h1 {
   padding: 10px 0;
 }
 .footer p {
   padding: 20px 0;
+}
+.footerSocial {
+  width: 280px;
+  height: 60px;
+  padding: 0 2rem;
+}
+.footerLogo {
+  width: 120px;
+  height: 60px;
+  padding: 0 2rem;
 }
 /* common css */
 
@@ -199,7 +269,15 @@
 .whiteButton {
   color: white;
 }
-
+.footerSearchInput {
+}
+.footerSearchButton {
+  background-color: transparent;
+  border: 2px solid orangered;
+  border-radius: 12px;
+  color: #124e78;
+  padding: 0 1.5rem;
+}
 /* / */
 /* responsiveness for screen less than 1040px */
 
@@ -338,6 +416,25 @@
   .cardDesign {
     width: 60vw;
   }
+  .cardDesign {
+    margin: 0 2rem;
+  }
+  .cardDesign h3 {
+    font-size: 1.2rem;
+  }
+  .cardDesign img {
+    width: 15px;
+  }
+  .clientsHead h1 {
+    font-size: 2.5rem;
+    padding: 0 0 1.5rem 0;
+  }
+  .clients h5 {
+    font-size: 1rem;
+  }
+  .nameCard {
+    margin-top: 1.5rem;
+  }
   .section3Image {
     width: 80%;
     display: flex;
@@ -400,7 +497,7 @@
     /* padding: 0 0.8rem; */
   }
   .name {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     font-weight: 500;
   }
   .descriptionSection1 h3 {
@@ -467,6 +564,9 @@
     font-size: 2.5rem;
   }
   .retailHead h1 {
+    font-size: 2.5rem;
+  }
+  .eventHead h1 {
     font-size: 2.5rem;
   }
   .blogHead1 {
