@@ -49,14 +49,14 @@
   padding: 5vw 0;
 }
 .aboutSection3 {
-  background-color: #2b4162;
+  background-color: #ecebea;
   padding: 4vw 0vw 0vw 8vw;
 }
 .section3Paragraph {
   padding: 0 4vw;
   display: flex;
   align-items: center;
-  color: white;
+  color: #124e78;
   font-size: 2vw;
 }
 .aboutSection3 p {
