@@ -31,65 +31,49 @@
     <title>Document</title>
   </head>
   <body>
-    <!-- responsive navbar -->
-    <!-- responsive navbar -->
-    <section class="d-block d-md-none d-lg-none d-xl-none">
-      <nav class="d-flex flex-column p-5">
-        <div>
-          <img style="height: 63px; width: 72px" src="./assets/logo.png" />
-        </div>
-        <a style="text-decoration: none; color: initial" href="index.html"
-          ><h4 class="py-3">Home</h4></a
-        >
-        <a style="text-decoration: none; color: initial" href="about.html"
-          ><h4 class="py-3">About</h4></a
-        >
-        <a style="text-decoration: none; color: initial" href="services.html"
-          ><h4 class="py-3">Services</h4></a
-        >
-        <a style="text-decoration: none; color: initial" href="author.html"
-          ><h4 class="py-3">Author</h4></a
-        >
-        <a style="text-decoration: none; color: initial" href="blogs.html"
-          ><h4 class="py-3" style="color: orangered">Blog</h4></a
-        >
-        <a style="text-decoration: none; color: initial" href="contact.html"
-          ><h4 class="py-3">Contact</h4></a
-        >
-      </nav>
-    </section>
-
-    <!-- normal navbar -->
-
-    <section
-      style="background-color: #fff; width: 100%"
-      class="d-none d-md-block d-lg-block d-xl-block normalNav"
-    >
-      <nav
-        class="d-flex justify-content-between align-items-center navbarDisplay"
-        style="padding: 15px 90px"
-      >
-        <div>
-          <img style="height: 63px; width: 72px" src="./assets/logo.png" />
-        </div>
-        <div>
-          <div class="d-flex justify-content-around navItem">
-            <a style="text-decoration: none" href="index.html"><h4>Home</h4></a>
-            <a style="text-decoration: none" href="about.html"
-              ><h4>About</h4></a
+    <section class="nav" style="width: 100%">
+      <nav class="navbar navbar-expand-lg navbar-light" style="width: 100%">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="./assets/logo.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul
+              class="navbar-nav me-auto mb-2 mb-lg-0"
+              style="width: 100%; justify-content: end"
             >
-            <a style="text-decoration: none" href="services.html"
-              ><h4>Services</h4></a
-            >
-            <a style="text-decoration: none" href="author.html"
-              ><h4>Author</h4></a
-            >
-            <a style="text-decoration: none" href="blogs.html"
-              ><h4 style="color: orangered">Blog</h4></a
-            >
-            <a style="text-decoration: none" href="contact.html"
-              ><h4>Contact</h4></a
-            >
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Sevices</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="author.html">Author</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="blogs.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
           </div>
         </div>
       </nav>

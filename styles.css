@@ -1,11 +1,24 @@
 /* navbar */
-
+.nav {
+  padding: 0 5rem;
+}
 .navItem h4 {
   margin: 1rem;
   color: #124e78;
   font-family: "PT Serif", serif;
 }
-
+.nav-link {
+  font-size: 1.5rem;
+  font-family: "PT Serif", serif;
+  margin: 1rem;
+  color: #124e78;
+}
+.navbar-light .navbar-nav .nav-link.active {
+  color: orangered;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #124e78;
+}
 /* carousel */
 
 .firstSection {
@@ -238,13 +251,14 @@
 }
 .footer h1 {
   padding: 10px 0;
+  font-size: 3.5rem;
 }
 .footer p {
   /* padding: 20px 0; */
 }
 .footerSocial {
   width: 280px;
-  height: 60px;
+  height: 50px;
   padding: 0 2rem;
 }
 .footerLogo {
@@ -283,11 +297,14 @@
 .flexB {
   width: 40%;
 }
+.flexB h5 {
+  line-height: 2rem;
+}
 .footerSearch {
   background-color: #556781;
   padding: 0.5rem 1.5rem;
   border-radius: 5px;
-  width: 85%;
+  width: 95%;
   margin: 2rem 0;
 }
 .copyright {
@@ -417,6 +434,9 @@
 }
 /* responsiveness for screen size less than 768px */
 @media (max-width: 768px) {
+  .nav-link {
+    margin: 3px;
+  }
   .featuresHeading h1 {
     font-size: 3rem;
   }
@@ -534,6 +554,9 @@
 }
 /* responsiveness for screen size less than 450px */
 @media (max-width: 450px) {
+  .nav {
+    padding: 0 1.5rem;
+  }
   .buttonDesign {
     font-size: 0.5rem;
     /* padding: 0 0.8rem; */

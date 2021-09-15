@@ -25,69 +25,69 @@
       href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="author.css" />
 
     <title>Document</title>
   </head>
   <body>
-    <!-- responsive navbar -->
-    <!-- responsive navbar -->
-    <section class="d-block d-md-none d-lg-none d-xl-none">
-      <nav class="d-flex flex-column p-5">
-        <div>
-          <img style="height: 63px; width: 72px" src="./assets/logo.png" />
-        </div>
-        <a style="text-decoration: none; color: initial" href="index.html"
-          ><h4 class="py-3">Home</h4></a
-        >
-        <a style="text-decoration: none; color: initial" href="about.html"
-          ><h4 class="py-3">About</h4></a
-        >
-        <a style="text-decoration: none; color: initial" href="services.html"
-          ><h4 class="py-3">Services</h4></a
-        >
-        <a style="text-decoration: none; color: initial" href="author.html"
-          ><h4 class="py-3" style="color: orangered">Author</h4></a
-        >
-        <a style="text-decoration: none; color: initial" href="blogs.html"
-          ><h4 class="py-3">Blog</h4></a
-        >
-        <a style="text-decoration: none; color: initial" href="contact.html"
-          ><h4 class="py-3">Contact</h4></a
-        >
-      </nav>
-    </section>
-
-    <!-- normal navbar -->
-
-    <section
-      style="background-color: #fff; width: 100%"
-      class="d-none d-md-block d-lg-block d-xl-block normalNav"
-    >
-      <nav
-        class="d-flex justify-content-between align-items-center navbarDisplay"
-        style="padding: 15px 90px"
-      >
-        <div>
-          <img style="height: 63px; width: 72px" src="./assets/logo.png" />
-        </div>
-        <div>
-          <div class="d-flex justify-content-around navItem">
-            <a style="text-decoration: none" href="index.html"><h4>Home</h4></a>
-            <a style="text-decoration: none" href="about.html"
-              ><h4>About</h4></a
+    <section class="nav" style="width: 100%">
+      <nav class="navbar navbar-expand-lg navbar-light" style="width: 100%">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="./assets/logo.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul
+              class="navbar-nav me-auto mb-2 mb-lg-0"
+              style="width: 100%; justify-content: end"
             >
-            <a style="text-decoration: none" href="services.html"
-              ><h4>Services</h4></a
-            >
-            <a style="text-decoration: none" href="author.html"
-              ><h4 style="color: orangered">Author</h4></a
-            >
-            <a style="text-decoration: none" href="blogs.html"><h4>Blog</h4></a>
-            <a style="text-decoration: none" href="contact.html"
-              ><h4>Contact</h4></a
-            >
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Sevices</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="author.html">Author</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blogs.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
           </div>
         </div>
       </nav>
@@ -106,11 +106,8 @@
       </div>
     </section>
     <section>
-      <div class="container">
+      <!-- <div class="container">
         <div class="row">
-          <div class="col-6">
-            <img style="width: 100%" src="./assets/person2.png" alt="" />
-          </div>
           <div class="col-6 align-items-center d-flex justify-content-center">
             <h4>
               Currently working on the book which speaks about the growth of
@@ -118,7 +115,41 @@
               titled and is slated to release later this year.
             </h4>
           </div>
+          <div class="col-6">
+            <img style="width: 100%" src="./assets/author1.png" alt="" />
+          </div>
         </div>
+      </div> -->
+      <div class="d-flex author2">
+        <div
+          class="align-items-center d-flex justify-content-center"
+          style="width: 50%"
+        >
+          <h4>
+            Currently working on the book which speaks about the growth of
+            retail from the barter system to e-com. The book is yet to be titled
+            and is slated to release later this year.
+          </h4>
+        </div>
+        <div style="width: 50%">
+          <img style="width: 100%" src="./assets/author1.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="gallery">
+      <div class="galleryHead">
+        <h1>Gallery</h1>
+      </div>
+      <div class="gallerySlider">
+        <img src="./assets/eventslider.png" alt="" />
+        <img src="./assets/eventslider.png" alt="" />
+        <img src="./assets/eventslider.png" alt="" />
+        <img src="./assets/eventslider.png" alt="" />
+        <img src="./assets/eventslider.png" alt="" />
+        <img src="./assets/eventslider.png" alt="" />
+        <img src="./assets/eventslider.png" alt="" />
+        <img src="./assets/eventslider.png" alt="" />
+        <img src="./assets/eventslider.png" alt="" />
       </div>
     </section>
     <section class="footer">
@@ -142,5 +173,54 @@
         <img class="footerSocial" src="./assets/FooterSocial.png" alt="" />
       </div>
     </section>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $(".gallerySlider").slick({
+        dots: false,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true,
+            },
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+          // You can unslick at a given breakpoint now by adding:
+          // settings: "unslick"
+          // instead of a settings object
+        ],
+      });
+    </script>
   </body>
 </html>

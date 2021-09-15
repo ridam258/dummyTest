@@ -1,11 +1,36 @@
-.col-6 h4 {
+h4 {
   width: 70%;
   font-size: 2vw;
 
   color: #2b4162;
 }
-.container {
-  padding: 5rem 0rem 0;
+.author2 {
+  padding: 0 0 5rem 0;
+}
+.gallery {
+  padding: 5rem;
+}
+.gallerySlider img {
+  /* margin: 0 1rem; */
+  padding: 0 1rem;
+}
+.galleryHead h1 {
+  font-weight: 600;
+  font-size: 5rem;
+  color: #124e78;
+  font-family: "Cormorant Garamond", serif;
+  text-align: center;
+  padding: 0 0 5rem 0;
+}
+.gallerySlider .slick-dots {
+  display: none;
+}
+
+.gallerySlider .slick-next:before {
+  color: gray;
+}
+.gallerySlider .slick-prev:before {
+  color: gray;
 }
 @media (max-width: 768px) {
   .col-6 h4 {
@@ -13,6 +38,13 @@
   }
   .container {
     padding: 1rem 0rem 0;
+  }
+  .galleryHead h1 {
+    font-size: 2.5rem;
+    padding: 0 0 1.5rem 0;
+  }
+  .gallery {
+    padding: 2rem 3rem 3rem;
   }
 }
 .authorTopSection {
