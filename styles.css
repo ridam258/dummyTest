@@ -304,11 +304,11 @@
   background-color: #556781;
   padding: 0.5rem 1.5rem;
   border-radius: 5px;
-  width: 95%;
+  width: 60%;
   margin: 2rem 0;
 }
 .copyright {
-  padding: 0 2rem;
+  padding: 0 1rem;
 }
 /* / */
 /* responsiveness for screen less than 1040px */
@@ -534,7 +534,8 @@
     font-size: 0.8rem;
   }
   .footerSearch {
-    width: 100%;
+    width: 95%;
+    margin: 2rem auto;
   }
   .footerFirst h1 {
     font-size: 1.5rem;
