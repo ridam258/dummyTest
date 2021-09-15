@@ -41,6 +41,13 @@
 .blogsTopSectionContent h2 {
   font-size: 3.5vw;
 }
+.footer {
+  background-image: none;
+}
+.footerSearch {
+  background-color: #768498;
+  width: 60%;
+}
 @media (max-width: 768px) {
   .row div {
     width: 40%;
@@ -48,5 +55,9 @@
   }
   .blogsSquare {
     padding: 1rem 0rem;
+  }
+  .footerSearch {
+    width: 95%;
+    margin: 2rem auto;
   }
 }
