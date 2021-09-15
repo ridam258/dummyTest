@@ -551,6 +551,9 @@
   .flexA {
     width: 50%;
   }
+  .flexB h5 {
+    line-height: 1.3rem;
+  }
 }
 /* responsiveness for screen size less than 450px */
 @media (max-width: 450px) {
