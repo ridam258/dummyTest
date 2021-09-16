@@ -62,6 +62,7 @@
 /* features section */
 
 .featuresHeading h1 {
+  font-family: "Cormorant Garamond", serif;
   font-weight: 600;
   font-size: 5rem;
 }
