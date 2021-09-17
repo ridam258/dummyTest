@@ -95,8 +95,8 @@
     <section>
       <div class="authorTopSection">
         <img
-          style="width: 100%; background-color: black"
-          src="./assets/authorTopSection.png"
+          style="width: 100vw; background-color: black"
+          src="./assets/authorTopSection1.jpg"
           alt=""
         />
         <div class="authorTopSectionContent">
@@ -131,8 +131,13 @@
             and is slated to release later this year.
           </h4>
         </div>
-        <div style="width: 50%">
+        <div style="width: 50%; position: relative">
           <img style="width: 100%" src="./assets/author1.png" alt="" />
+          <img
+            style="position: absolute; top: 0; left: 0; width: 100%"
+            src="./assets/Rectangle 362.png"
+            alt=""
+          />
         </div>
       </div>
     </section>
@@ -157,10 +162,9 @@
           <h1>Request More Information</h1>
           <h6>Eliminating gap between the products and the consumers</h6>
           <button class="buttonDesign whiteButton">Contact Us</button>
-          <br />
         </div>
         <div class="d-flex justify-content-center flexB">
-          <h5>
+          <h5 style="font-family: 'Lato', sans-serif">
             For inquiries or to invite Umesh, <br />
             Please contact: <br />
             Email: <br />
@@ -173,10 +177,17 @@
       </div>
       <div
         class="footerSearch d-flex align-items-center justify-content-between"
-        style="width: 95%; margin: 2rem auto"
       >
-        <h5>Newsletter Sign Up</h5>
-        <form class="d-flex" style="background-color: white; padding: 5px">
+        <h5 style="padding-left: 25px; margin: 0">Newsletter Sign Up</h5>
+        <form
+          class="d-flex justify-content-between"
+          style="
+            background-color: white;
+            padding: 5px;
+            border-radius: 8px;
+            width: 65%;
+          "
+        >
           <input
             class="form-control me-2 footerSearchInput"
             type="search"
@@ -189,10 +200,15 @@
       </div>
       <div
         class="d-flex justify-content-between align-items-center"
-        style="padding: 2rem 0 0; border-top: 1px solid white"
+        style="border-top: 1px solid white; padding: 2rem 0 0"
       >
         <p class="copyright">© 2021,Umesh Agarwal</p>
-        <img class="footerSocial" src="./assets/FooterSocial.png" alt="" />
+        <div class="socialIcon">
+          <img src="./assets/linkedin.png" alt="" />
+          <img src="./assets/Facebook.png" alt="" />
+          <img src="./assets/Instagram.png" alt="" />
+          <img src="./assets/Youtube.png" alt="" />
+        </div>
       </div>
     </section>
     <script

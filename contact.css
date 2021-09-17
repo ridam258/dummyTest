@@ -1,14 +1,22 @@
+body {
+  overflow-x: hidden;
+}
 .contactFormSection {
   display: flex;
   width: 100vw;
 }
-.contactFormSection div {
+.sideImage,
+.contactForm {
   flex: 50%;
 }
-
+.footerSearch {
+  width: 75%;
+  margin: 2rem auto;
+}
 input[type="text"],
 input[type="number"],
 input[type="email"],
+input[type="tel"],
 textarea,
 select {
   width: 30vw;
@@ -23,7 +31,7 @@ select {
 .contactForm {
   margin: 1rem 0rem 1rem 10vw;
 }
-.contactForm div {
+.contactFormDiv {
   border-radius: 5px;
   padding: 2rem;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -42,10 +50,7 @@ select {
   font-weight: 600;
   font-size: 2.5rem;
 }
-.footerSearch {
-  width: 80%;
-  margin: 2rem auto;
-}
+
 @media (max-width: 768px) {
   .contactFormSection {
     flex-direction: column;

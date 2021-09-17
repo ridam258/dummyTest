@@ -22,6 +22,7 @@
   color: white;
   font-size: 2vw;
   width: 60%;
+  font-weight: 900;
 }
 .blogsTopSection {
   position: relative;
@@ -30,10 +31,10 @@
   position: absolute;
   top: 57%;
   left: 55%;
-  width: 45%;
+  width: 40%;
   font-family: "Cormorant Garamond", serif;
   font-weight: 700;
-  color: white;
+  color: #124e78;
 }
 .blogsTopSectionContent h1 {
   font-size: 6vw;
@@ -41,13 +42,7 @@
 .blogsTopSectionContent h2 {
   font-size: 3.5vw;
 }
-.footer {
-  background-image: none;
-}
-.footerSearch {
-  background-color: #768498;
-  width: 60%;
-}
+
 @media (max-width: 768px) {
   .row div {
     width: 40%;

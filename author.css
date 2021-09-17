@@ -1,11 +1,10 @@
 h4 {
   width: 70%;
-  font-size: 2vw;
+  font-size: 2.5vw;
 
   color: #2b4162;
 }
 .author2 {
-  padding: 0 0 5rem 0;
 }
 .gallery {
   padding: 5rem;
@@ -52,16 +51,19 @@ h4 {
 }
 .authorTopSectionContent {
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 10%;
   width: 45%;
   font-family: "Cormorant Garamond", serif;
-  font-weight: 700;
+  font-weight: 900;
   color: white;
 }
+
 .authorTopSectionContent h1 {
   font-size: 4vw;
+  font-weight: 700;
 }
-.authorTopSectionContent h2 {
-  font-size: 3vw;
+.authorTopSectionContent h3 {
+  font-size: 2vw;
+  font-weight: 500;
 }

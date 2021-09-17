@@ -80,20 +80,23 @@
     </section>
     <section class="contactFormSection">
       <div class="sideImage">
-        <img style="width: 80%" src="./assets/Contact Us 1.png" alt="" />
+        <img
+          style="width: 70%; margin: 0 auto"
+          src="./assets/Contact Us 1.png"
+          alt=""
+        />
       </div>
       <div class="contactForm">
         <h1>Contact us</h1>
-        <div>
+        <div class="contactFormDiv">
           <form>
             <input type="text" id="name" name="name" placeholder="Your name" />
 
-            <input
-              type="number"
-              id="contactnum"
-              name="contactnum"
-              placeholder="Phone Number"
-            />
+            <div class="main">
+              <div class="form_group">
+                <input type="tel" id="txtPhone" class="txtbox" />
+              </div>
+            </div>
             <input
               type="email"
               id="email"
@@ -125,6 +128,7 @@
               id="message"
               rows="5"
               style="resize: none"
+              placeholder="Message"
             ></textarea>
             <button class="buttonDesign buttonBlue buttonFont">Submit</button>
           </form>
@@ -133,10 +137,7 @@
     </section>
     <section class="footer">
       <div class="footerFirst d-flex justify-content-around">
-        <div
-          class="d-flex flex-column align-items-center justify-content-center"
-          style=""
-        >
+        <div class="d-flex flex-column align-items-center">
           <h5>Our Wisdom, Your Growth.</h5>
           <h1>For New and More Information</h1>
           <h6>Eliminating gap between the products and the consumers</h6>
@@ -145,8 +146,16 @@
       <div
         class="footerSearch d-flex align-items-center justify-content-between"
       >
-        <h5>Newsletter Sign Up</h5>
-        <form class="d-flex" style="background-color: white; padding: 5px">
+        <h5 style="padding-left: 25px; margin: 0">Newsletter Sign Up</h5>
+        <form
+          class="d-flex justify-content-between"
+          style="
+            background-color: white;
+            padding: 5px;
+            border-radius: 8px;
+            width: 65%;
+          "
+        >
           <input
             class="form-control me-2 footerSearchInput"
             type="search"
@@ -163,8 +172,61 @@
         class="d-flex justify-content-end align-items-center"
         style="border-top: 1px solid white; padding: 2rem 0 0"
       >
-        <img class="footerSocial" src="./assets/FooterSocial.png" alt="" />
+        <div class="socialIcon">
+          <img src="./assets/linkedin.png" alt="" />
+          <img src="./assets/Facebook.png" alt="" />
+          <img src="./assets/Instagram.png" alt="" />
+          <img src="./assets/Youtube.png" alt="" />
+        </div>
       </div>
     </section>
+
+    <!-- script -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/16.0.8/css/intlTelInput.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/16.0.8/js/intlTelInput-jquery.min.js"
+    ></script>
+    <script type="text/javascript">
+      $(function () {
+        var code = "+91"; // Assigning value from model.
+        $("#txtPhone").val(code);
+        $("#txtPhone").intlTelInput({
+          autoHideDialCode: true,
+          autoPlaceholder: "ON",
+          dropdownContainer: document.body,
+          formatOnDisplay: true,
+          hiddenInput: "full_number",
+          initialCountry: "auto",
+          nationalMode: true,
+          placeholderNumberType: "MOBILE",
+          preferredCountries: ["US"],
+          separateDialCode: true,
+        });
+        $("#btnSubmit").on("click", function () {
+          var code = $("#txtPhone").intlTelInput(
+            "getSelectedCountryData"
+          ).dialCode;
+          var phoneNumber = $("#txtPhone").val();
+          var name = $("#txtPhone").intlTelInput("getSelectedCountryData").name;
+          alert(
+            "Country Code : " +
+              code +
+              "\nPhone Number : " +
+              phoneNumber +
+              "\nCountry Name : " +
+              name
+          );
+        });
+      });
+    </script>
   </body>
 </html>
