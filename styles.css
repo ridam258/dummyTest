@@ -297,6 +297,7 @@ body {
   font-family: "Cormorant Garamond", serif;
   margin-top: 20px;
   padding: 0.5rem 2rem;
+  font-weight: 500;
 }
 .blueButton {
   color: #124e78;
