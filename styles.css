@@ -33,7 +33,7 @@ body {
   padding: 5rem 5rem 0rem 5rem;
 }
 .name {
-  font-size: 110px;
+  font-size: 7vw;
   font-weight: 600;
   font-family: "Cormorant Garamond", serif;
   display: inline-block;
@@ -87,6 +87,9 @@ body {
   padding: 4rem;
   width: 30vw;
 }
+.wisdomCard img {
+  width: 15%;
+}
 .cards button {
   margin: 1rem 0;
   padding: 0.5rem 2rem;
@@ -108,8 +111,11 @@ body {
   background-size: cover;
   justify-content: center;
 }
+.section3Image {
+  width: 70%;
+}
 .section3Content h1 {
-  font-size: 84px;
+  font-size: 5vw;
   font-weight: 600;
   font-family: "Cormorant Garamond", serif;
 }
@@ -220,26 +226,11 @@ body {
 .eventSlider .slick-dots {
   display: none;
 }
-@media (max-width: 768px) {
-  .eventHead h1 {
-    font-size: 2.5rem;
-    padding: 0 0 1.5rem 0;
-  }
-  .events {
-    padding: 2rem 3rem 3rem;
-  }
-  .descriptionSection1 h6 {
-    font-size: 0.8rem;
-    margin-top: 2rem;
-  }
-  .name span {
-    font-size: 1.2rem;
-  }
-}
+
 /* build your career section */
 
 .buildCareerContent h1 {
-  font-size: 5rem;
+  font-size: 5vw;
   font-weight: 600;
   font-family: "Cormorant Garamond", serif;
 }
@@ -254,18 +245,21 @@ body {
   background-color: #ecebea;
   /* padding: 5rem 5rem 0 0; */
 }
+.buildCareerImage {
+  width: 80%;
+}
 
 /* footer */
 
 .footer {
   background-image: url(./assets/footerBackground.png);
   color: white;
-  padding: 5rem 10rem;
+  padding: 2rem 10rem;
 }
 .footer h1 {
   padding: 10px 0;
   font-family: "Cormorant Garamond", serif;
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 .footer p {
   /* padding: 20px 0; */
@@ -275,13 +269,10 @@ body {
   height: 50px;
   padding: 0 2rem;
 }
-.footerLogo {
-  width: 120px;
-  height: 60px;
-  padding: 0 2rem;
-}
+
 .socialIcon img {
   margin: 0 10px;
+  width: 45px;
 }
 .footerFirst h5,
 .footerFirst h6 {
@@ -320,14 +311,14 @@ body {
   width: 40%;
 }
 .flexB h5 {
-  line-height: 2rem;
+  line-height: 1.5rem;
 }
 .footerSearch {
   background-color: #556781;
   padding: 0.5rem;
   border-radius: 5px;
   width: 60%;
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
 .copyright {
   padding: 0 1rem;
@@ -335,152 +326,71 @@ body {
 /* / */
 /* responsiveness for screen less than 1040px */
 
-@media (max-width: 1040px) {
-  /* common css */
-
-  .buttonDesign {
-    font-size: 1.3rem;
-  }
-  /* section 1 */
-  .carouselContent {
-    padding: 3rem 3rem 0rem 3rem;
-  }
-  .name {
-    font-size: 3rem;
-  }
-  .descriptionSection1 h3 {
-    font-size: 2rem;
-  }
-  .descriptionSection1 h5 {
-    font-size: 1.2rem;
-  }
-  .descriptionSection1 h4 {
-    font-size: 1.5rem;
-  }
-  .activeContent {
-    padding-top: 4rem;
-  }
-  /* features section */
-  .featuresHeading {
-    padding: 4rem 0rem;
-  }
-  .featuresHeading h1 {
-    font-size: 4rem;
-  }
-  .cardDesign {
-    padding: 2rem;
-  }
-
-  /* section 3 */
-  .section3Image {
-    width: 90%;
-    display: flex;
-    align-self: flex-end;
-  }
-  .section3ImageParent {
-    display: flex;
-    align-items: flex-end;
-  }
-  .section3Content h1 {
-    font-size: 3rem;
-  }
-  .section3Content h3 {
-    font-size: 2rem;
-  }
-  .section3Content {
-    margin: 2rem 2rem;
-  }
-  .section3Content h2 {
-    font-size: 1.3rem;
-  }
-  /* blogs or retail wisdom */
-  .blogImages {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    flex: 33%;
-  }
-  .blogImages img {
-    display: flex;
-    justify-content: center;
-  }
-  .blogHead1 {
-    font-size: 2rem;
-    width: 20%;
-  }
-  .blogHead2 {
-    font-size: 2rem;
-    width: 20%;
-  }
-  .blogHead3 {
-    font-size: 2rem;
-    width: 20%;
-  }
-  /* build your career section */
-  .buildCareerContent h1 {
-    font-size: 3rem;
-    font-weight: 600;
-    font-family: "Cormorant Garamond", serif;
-  }
-  .buildCareerContent h2 {
-    font-size: 2rem;
-  }
-  .buildCareerContent {
-    margin: 5rem 3rem;
-    color: #124e78;
-  }
-  .buildCareer {
-    padding: 3rem 2rem 0 0;
-  }
-  .buildCareerImage {
-    width: 90%;
-  }
-
-  /* footer */
-  .footer {
-    background-image: url(./assets/footerBackground.png);
-    color: white;
-    padding: 3rem 0rem;
-  }
-  .footerLogo {
-    width: 120px;
-    height: 70px;
-    padding: 0 2rem;
-  }
-  .footerSocial {
-    width: 280px;
-    height: 70px;
-    padding: 0 2rem;
-  }
-}
 /* responsiveness for screen size less than 768px */
 @media (max-width: 768px) {
+  .buttonDesign {
+    font-size: 0.8rem;
+    padding: 0.2rem 0.5rem;
+    font-weight: 700;
+  }
+  .nav {
+    padding: 0 2rem;
+  }
   .nav-link {
     margin: 3px;
   }
-  .featuresHeading h1 {
-    font-size: 3rem;
+  .carouselContent {
+    padding: 3rem 1rem 0rem;
   }
-  .featuresHeading h2 {
-    font-size: 1.3rem;
+  .name {
+    /* font-size: 9vw; */
+  }
+  .name span {
+    font-size: 4vw;
+  }
+
+  .descriptionSection1 h5 {
+    font-size: 3vw;
+    padding-top: 10px;
+  }
+  .descriptionSection1 h4 {
+    margin-top: 2rem;
+    font-size: 3vw;
+  }
+
+  .person1Photo {
+    width: 56%;
+  }
+
+  .activeContent {
+    padding-top: 2rem;
+    width: 100%;
+  }
+  .featuresHeading {
+    padding: 1rem 0;
+  }
+  .featuresHeading h1 {
+    font-size: 7vw;
+  }
+  .featuresHeading h4 {
+    font-size: 4vw;
   }
   .cards {
-    padding: 0rem 2rem 5rem;
+    padding: 0rem 1rem 3rem;
     flex-direction: column;
     align-items: center;
   }
   .cardDesign {
-    width: 60vw;
+    /* margin: 0 rem; */
+    width: 80vw;
+    padding: 2rem;
   }
-  .cardDesign {
-    margin: 0 2rem;
+
+  .cardDesign h4 {
+    font-size: 1rem;
   }
-  .cardDesign h3 {
-    font-size: 1.2rem;
-  }
-  .cardDesign img {
-    width: 15px;
+  .wisdomCard img {
+    width: 30px;
   }
   .clientsHead h1 {
     font-size: 2.5rem;
@@ -493,39 +403,57 @@ body {
     margin-top: 1.5rem;
   }
   .section3Image {
-    width: 80%;
+    width: 100%;
     display: flex;
     align-self: flex-end;
   }
   .section3Content h1 {
-    font-size: 2rem;
+    font-size: 6vw;
   }
   .section3Content h3 {
-    font-size: 1.5rem;
+    font-size: 5vw;
   }
   .section3Content {
     margin: 1rem;
   }
-  .section3Content h2 {
-    font-size: 1rem;
+  .section3Content h4 {
+    font-size: 3vw;
+    padding-top: 10px;
   }
   .section3 {
-    padding: 5rem 2rem 0 0;
+    padding: 2rem 1rem 0 0;
   }
   .section3ImageParent {
-    width: 80%;
+    width: 45%;
+    align-self: flex-end;
+  }
+  .section3ImageParent img {
+    margin: auto;
+    width: 100%;
+  }
+  .retailHead h1 {
+    font-size: 7vw;
+    margin: 2rem 0;
+  }
+  .blogImages {
+    flex-direction: column;
+  }
+  .buildCareerImage {
+    width: 100%;
+  }
+  .buildCareerImageParent {
+    /* width: 50%; */
   }
   .buildCareerContent h1 {
-    font-size: 2rem;
+    font-size: 6vw;
   }
   .buildCareerContent h2 {
-    font-size: 1.5rem;
+    font-size: 4vw;
   }
   .buildCareerContent {
-    margin: 2rem 1rem;
   }
   .buildCareer {
-    padding: 3rem 1rem 0 0;
+    padding: 2rem 1rem 0 0;
   }
   .buildCareerImage {
     width: 90%;
@@ -579,13 +507,12 @@ body {
   }
 }
 /* responsiveness for screen size less than 450px */
-@media (max-width: 450px) {
+/* @media (max-width: 450px) {
   .nav {
     padding: 0 1.5rem;
   }
   .buttonDesign {
     font-size: 0.5rem;
-    /* padding: 0 0.8rem; */
   }
   .name {
     font-size: 1.8rem;
@@ -718,9 +645,4 @@ body {
   .footer p {
     font-size: 0.6rem;
   }
-}
-@media (min-width: 1040px) {
-  .blogHead {
-    flex: 33%;
-  }
-}
+} */
