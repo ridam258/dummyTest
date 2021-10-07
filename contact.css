@@ -58,6 +58,7 @@ select {
   input[type="text"],
   input[type="number"],
   input[type="email"],
+  input[type="tel"],
   textarea,
   select {
     width: 100%;
@@ -68,6 +69,7 @@ select {
   }
   .buttonFont {
     font-size: 1rem;
+    padding: 0.5rem 1rem;
   }
   .contactForm h1 {
     font-size: 1.2rem;
