@@ -350,6 +350,9 @@ body::-webkit-scrollbar-thumb {
 
 /* responsiveness for screen size less than 768px */
 @media (max-width: 768px) {
+  .nav-item {
+    text-align: center;
+  }
   .buttonDesign {
     font-size: 0.8rem;
     padding: 0.2rem 0.5rem;

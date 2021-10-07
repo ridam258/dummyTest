@@ -39,9 +39,27 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="sidenav.css" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-6 w-6"
+        fill="#000"
+        viewBox="0 0 24 24"
+        stroke="#000"
+        style="z-index: 100; width: 25px"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M8 7l4-4m0 0l4 4m-4-4v18"
+        />
+      </svg>
+    </button>
     <!-- responsive navbar -->
     <!-- <section class="d-block d-md-none d-lg-none d-xl-none">
       <nav class="d-flex flex-column p-5">
@@ -113,10 +131,9 @@
             ><img src="./assets/logo.png" alt=""
           /></a>
           <button
+            onclick="openNav()"
             class="navbar-toggler"
             type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
@@ -157,6 +174,39 @@
         </div>
       </nav>
     </section>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <ul
+        class="navbar-nav me-auto mb-2 mb-lg-0"
+        style="width: 100%; justify-content: flex-end"
+      >
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html"
+            >Home</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="services.html">Mentorship</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="author.html">Author</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="blogs.html">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Use any element to open the sidenav -->
+
     <div class="slider" style="overflow-x: hidden">
       <section class="firstSection">
         <div class="d-flex justify-content-between carouselContent">
@@ -651,5 +701,6 @@
       integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
       crossorigin="anonymous"
     ></script>
+    <script src="./index.js/index.js"></script>
   </body>
 </html>
