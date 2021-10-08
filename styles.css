@@ -351,7 +351,9 @@ body::-webkit-scrollbar-thumb {
 /* responsiveness for screen size less than 768px */
 @media (max-width: 768px) {
   .nav-item {
-    text-align: center;
+    /* text-align: center; */
+    color: #124e78;
+    padding: 0 1rem;
   }
   .buttonDesign {
     font-size: 0.8rem;
