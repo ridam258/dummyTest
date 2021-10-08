@@ -50,7 +50,22 @@ select {
   font-weight: 600;
   font-size: 2.5rem;
 }
-
+.iti__selected-flag {
+  z-index: 1;
+}
+.footerFirst h6 {
+  font-size: 1.5vw;
+}
+.footerSearch {
+  width: 50%;
+}
+.footerSearch form {
+  width: 98%;
+  margin: 0 auto;
+}
+.iti {
+  width: 100%;
+}
 @media (max-width: 768px) {
   .contactFormSection {
     flex-direction: column;
@@ -76,5 +91,12 @@ select {
   }
   .footerSearch {
     width: 95%;
+    margin: 0.5rem auto;
+  }
+  .footerFirst h6 {
+    font-size: 3vw;
+  }
+  .footerFirst h4 {
+    font-size: 3vw;
   }
 }

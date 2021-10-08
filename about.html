@@ -26,11 +26,29 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="sidenav.css" />
     <link rel="stylesheet" href="about.css" />
 
     <title>Document</title>
   </head>
   <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-6 w-6"
+        fill="#000"
+        viewBox="0 0 24 24"
+        stroke="#000"
+        style="z-index: 100; width: 25px"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M8 7l4-4m0 0l4 4m-4-4v18"
+        />
+      </svg>
+    </button>
     <section class="nav" style="width: 100%">
       <nav class="navbar navbar-expand-lg navbar-light" style="width: 100%">
         <div class="container-fluid">
@@ -38,17 +56,20 @@
             ><img src="./assets/logo.png" alt=""
           /></a>
           <button
+            onclick="openNav()"
             class="navbar-toggler"
             type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div
+            class="collapse navbar-collapse"
+            style=""
+            id="navbarSupportedContent"
+          >
             <ul
               class="navbar-nav me-auto mb-2 mb-lg-0"
               style="width: 100%; justify-content: flex-end"
@@ -78,6 +99,39 @@
         </div>
       </nav>
     </section>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <ul
+        class="navbar-nav me-auto mb-2 mb-lg-0"
+        style="width: 100%; justify-content: flex-end"
+      >
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="index.html"
+            ><img style="width: 50px" src="./assets/logo.png" alt=""
+          /></a>
+        </li>
+        <li class="nav-item" style="margin-top: 2rem">
+          <a class="nav-link" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="services.html">Mentorship</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="author.html">Author</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="blogs.html">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
     <section class="section1">
       <div class="container m-0 p-0" style="width: 100vw; max-width: 100%">
         <div class="row">
@@ -96,21 +150,21 @@
             <h6
               style="font-family: 'Cormorant Garamond', serif; font-weight: 700"
             >
-              His life motto is to "Work alongside retail brand owners and
-              retailers to make them understand that the focus must always be on
-              what consumers want, rather than what you want to sell them".
+              My life motto is to "Work alongside retailers and brand owners to
+              make them understand that the focus must always be on what
+              consumers want, rather than what you want to sell them".
             </h6>
           </div>
         </div>
       </div>
       <div class="section1Paragraph">
         <p>
-          Umesh is a passionate and through Retail Professional with more than
-          two decades of practical experience in the retail industry. In his
-          initial years of working with large retailers, in the Indian and UAE
-          Markets, he has closely been associated with 100 plus retail brands
-          from all over the globe and some large retailers helping then to grow
-          in their journey from where they were to where they wanted to be.
+          I am a passionate Retail Professional with more than two decades of
+          practical experience in the retail industry. In my initial years of
+          working with large retailers, in the India and UAE Markets, I have
+          closely been associated with 100 plus retail brands from all over the
+          globe and some large retailers helping then to grow in their journey
+          from where they were to where they wanted to be.
         </p>
       </div>
     </section>
@@ -130,14 +184,14 @@
       </div>
       <div class="section2Paragraph">
         <p>
-          In his current role, he works as a Retail Business Consultant and
-          Practitioner, imparting his industry knowledge and wisdom collected
-          through vast experience of the industry. He helps retailers and retail
+          In my current role, I work as a Retail Business Consultant and
+          Practitioner, imparting my industry knowledge and wisdom collected
+          through vast experience of the industry. I help retailers and retail
           brand onwers with focus on Omni Channel Growth Stratetegies,
           Understanding Consumer Behaviour, Data Analytics and effective
-          implememtation of futuristic technology in the most sustainable way
-          for growth.He is a strong proponent of creating immersive consumer
-          experience on every shopping channel.
+          implememtation of advanced technologies to build successful brands for
+          sustainable growth.I am a strong proponent of creating immersive
+          consumer experience on every shopping channel.
         </p>
       </div>
     </section>
@@ -147,13 +201,13 @@
           <div class="col-6 section3Paragraph">
             <p>
               Originally being an Architect & Project Manager by education and
-              Practice, he also undertakes and helps retail brand in their
-              Retail fit out Project Management, Retail Store Design, Roll-out
+              Practice, I also undertakes and helps retail brand in their Retail
+              fit out Project Management, Retail Store Design, Roll-out
               Management and in-store digital strategies. <br />
-              <span style="margin: 2vw; display: block"></span> UMESH is
-              associated with multiple governing bodies of the Retail Industry
-              in India and UAE. He actively contributes at various retail forums
-              and participates in multiple networking events.
+              <span style="margin: 2vw; display: block"></span> I am associated
+              with multiple governing bodies of the Retail Industry in India and
+              UAE. I actively contributes at various retail forums and
+              participates in multiple networking events.
             </p>
           </div>
           <div class="col-6 d-flex align-items-end">
@@ -170,8 +224,8 @@
           </div>
           <div class="col-6 d-flex justify-content-center align-items-center">
             <h1 style="width: 40vw; font-size: 3vw">
-              He is a known face in the retail industry as an Author,
-              contributor, Mentor and Speaker.
+              I contribute in the retail industry as a speaker author and
+              mentor.
             </h1>
           </div>
         </div>
@@ -179,49 +233,39 @@
     </section>
     <section class="footer">
       <div class="footerFirst d-flex justify-content-around">
-        <div
-          class="
-            d-flex
-            flex-column
-            align-items-start
-            justify-content-around
-            flexA
-          "
-        >
-          <h5>Our Wisdom, Your Growth.</h5>
+        <div class="d-flex flex-column justify-content-center flexA">
           <h1>Request More Information</h1>
-          <h6 class="m-0">
-            Eliminating gap between the products and the consumers
-          </h6>
+
           <button class="buttonDesign whiteButton footerButton">
             Contact Us
           </button>
         </div>
-        <div class="d-flex justify-content-center flexB">
-          <h5 style="font-family: 'Lato', sans-serif">
-            For inquiries or to invite Umesh, <br />
-            Please contact: <br />
-            Email: <br />
-            umeshtheretailpro@gmail.com <br />
-            Call: <br />
-            +971 55 108 6104 <br />
-            +971 4 428 0039
-          </h5>
+        <div class="d-flex justify-content-center flexB align-items-center">
+          <div>
+            <h5 style="font-family: 'Lato', sans-serif">
+              For inquiries or to invite Umesh,
+            </h5>
+
+            <div class="d-flex">
+              <img src="./assets/mailIcon.png" alt="" />
+              <h5 class="px-2" style="font-family: 'Lato', sans-serif">
+                umeshtheretailpro@gmail.com
+              </h5>
+            </div>
+            <h5 style="font-family: 'Lato', sans-serif">
+              <img src="./assets/callIcon.png" alt="" /> +971 55 108 6104
+            </h5>
+            <h5 style="font-family: 'Lato', sans-serif">
+              <img src="./assets/callIcon.png" alt="" /> +971 4 428 0039
+            </h5>
+          </div>
         </div>
       </div>
       <div
         class="footerSearch d-flex align-items-center justify-content-between"
       >
         <h5 style="margin: 0">Newsletter Sign Up</h5>
-        <form
-          class="d-flex justify-content-between"
-          style="
-            background-color: white;
-            padding: 5px;
-            border-radius: 8px;
-            width: 65%;
-          "
-        >
+        <form class="d-flex justify-content-between" style="">
           <input
             class="form-control me-2 footerSearchInput"
             type="search"
@@ -250,5 +294,6 @@
       integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
       crossorigin="anonymous"
     ></script>
+    <script src="./index.js/index.js"></script>
   </body>
 </html>

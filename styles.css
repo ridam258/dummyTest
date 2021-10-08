@@ -43,21 +43,24 @@ body::-webkit-scrollbar-thumb {
 }
 .name {
   font-size: 7vw;
+  margin: 0;
   font-weight: 600;
   font-family: "Cormorant Garamond", serif;
   display: inline-block;
 }
 .name span {
   display: block;
-  text-align: right;
+  /* text-align: right; */
   font-size: 2.5rem;
   font-family: "Lato", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
+  /* margin: 0; */
 }
 
 .descriptionSection1 h5 {
   font-size: 1.5rem;
-  padding-top: 20px;
+  font-weight: 500;
+  /* padding-top: 20px; */
 }
 .descriptionSection1 h4 {
   margin-top: 4rem;
@@ -127,6 +130,7 @@ body::-webkit-scrollbar-thumb {
   font-size: 5vw;
   font-weight: 600;
   font-family: "Cormorant Garamond", serif;
+  margin: 0;
 }
 .section3Content h3 {
   font-size: 48px;
@@ -245,6 +249,7 @@ body::-webkit-scrollbar-thumb {
 }
 .buildCareerContent h2 {
   font-size: 3rem;
+  margin: 0;
 }
 .buildCareerContent {
   margin: 9rem 5rem;
@@ -317,6 +322,7 @@ body::-webkit-scrollbar-thumb {
 }
 .flexA {
   width: 60%;
+  align-items: flex-start;
 }
 .flexB {
   width: 40%;
@@ -519,7 +525,7 @@ body::-webkit-scrollbar-thumb {
     padding: 0 0 1rem 0;
   }
   .footer {
-    padding: 2rem 1rem;
+    padding: 2rem 1rem 6rem;
   }
   .socialIcon {
     display: flex;
@@ -533,10 +539,11 @@ body::-webkit-scrollbar-thumb {
     margin: 0;
   }
   .footerSearch h5 {
-    font-size: 3vw;
+    font-size: 2.5vw;
+    padding-left: 6px;
   }
   .footerSearchInput {
-    font-size: 3vw;
+    font-size: 2.5vw;
     margin: 0;
     padding: 0;
   }
@@ -545,11 +552,15 @@ body::-webkit-scrollbar-thumb {
     padding: 5px 15px;
   }
   .footerSearch {
-    width: 95%;
+    width: 98%;
     margin: 1rem auto;
   }
+  .footerFirst {
+    flex-direction: column;
+    justify-content: center;
+  }
   .footerFirst h1 {
-    font-size: 4vw;
+    font-size: 6vw;
   }
   .footerFirst h5 {
     font-size: 3vw;
@@ -562,10 +573,19 @@ body::-webkit-scrollbar-thumb {
     padding: 10px 15px;
   }
   .flexA {
-    width: 50%;
+    width: 100%;
+    align-items: center;
+  }
+  .flexA h1 {
+    margin: 0;
+  }
+  .flexA .buttonDesign {
+    margin: 0 0 1rem 0;
   }
   .flexB h5 {
-    line-height: 4vw;
+    line-height: 5vw;
+    font-size: 4vw;
+    /* text-align: center; */
   }
   .testimonialCard {
     margin: 1rem;
@@ -588,11 +608,15 @@ body::-webkit-scrollbar-thumb {
   .testimonialCard h6 {
     font-size: 3vw;
   }
-  .footerSearch h5 {
-    padding-left: 10px;
-  }
+
   .footerSearch form {
     width: 70%;
+  }
+  .flexB img {
+    /* width: 12px; */
+  }
+  .flexB {
+    width: 100%;
   }
 }
 /* responsiveness for screen size less than 450px */
