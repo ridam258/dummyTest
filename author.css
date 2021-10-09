@@ -54,9 +54,9 @@ h4 {
 }
 .authorTopSectionContent {
   position: absolute;
-  top: 30%;
-  left: 10%;
-  width: 45%;
+  top: 28%;
+  left: 8%;
+  width: 54%;
   font-family: "Cormorant Garamond", serif;
   font-weight: 900;
   color: white;
@@ -67,6 +67,6 @@ h4 {
   font-weight: 700;
 }
 .authorTopSectionContent h3 {
-  font-size: 2vw;
+  font-size: 3vw;
   font-weight: 500;
 }
